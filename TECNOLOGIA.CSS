@@ -1,0 +1,45 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+header{
+    background-color:#000000;
+    overflow: hidden;
+    width:100%
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color:#48ff00;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    background-color:#c8ff00;
+    color: white;
+}
+.parteCentral{
+    background: #e9f19d;
+    max-width: 80%;
+    margin: auto;
+}
+main img{
+    max-width: 100%;
+}
+.pie{
+    background: #000000;
+    color: #6d6767;
+    padding: 10px 10px;
+    text-align: center;
+}
